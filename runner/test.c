@@ -24,7 +24,7 @@ void setProcessLimit(long timelimit, long memory_limit) {
 }
 
 int run(char *args[],long timelimit, long memory_limit, char *in, char *out){
-    pid_t pid = fork();
+    pid_t pid = vfork();
     if(pid<0)
         printf("error in fork!\n");
     else if(pid == 0) {
