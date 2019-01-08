@@ -1,7 +1,7 @@
 # judge-runner
 judge-runner
 ## 获取可执行程序的时间、空间消耗
-
+详细： https://blog.csdn.net/qq_38089964/article/details/86030149
 ![判题流程](./imgs/1.png)
 核心命令：
 * vfork();创建子进程
